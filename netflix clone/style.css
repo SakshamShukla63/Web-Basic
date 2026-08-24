@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dark overlay */
+.main .box {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.8) 100%);
+    z-index: 1;
+}
+
+nav {
+    height: 80px;
+    max-width: 80vw;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.lang-btn {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 1px solid #aaa;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.btn-red-sm {
+    background-color: #e50914;
+    color: white;
+    padding: 7px 16px;
+    font-size: 14px;
+}
+
+.btn-red-sm:hover {
+    background-color: #c11119;
+}
+
+.hero {
+    position: relative;
+    z-index: 10;
+    height: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    gap: 20px;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero .first {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero .second {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero .third {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+.hero-buttons input {
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 1px solid #555;
+    flex: 1;
+    outline: none;
+}
+
+.hero-buttons input:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.hero-buttons input::placeholder {
+    color: #aaa;
+}
+
+.btn-red {
+    background-color: #e50914;
+    color: white;
+    padding: 12px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-red:hover {
+    background-color: #c11119;
+}
+
+.sepration {
+    height: 8px;
+    background-color: #232323;
+}
+
+/* Feature Section One */
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    padding: 70px 0;
+    gap: 20px;
+}
+
+.sec-text {
+    flex: 1;
+}
+
+.sec-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.sec-text p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sec-img {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-img img {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Video position scaled relative to TV image wrapper */
+.sec-img video {
+    position: absolute;
+    top: 20.5%;
+    left: 13%;
+    width: 73%;
+    height: 54%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+/*MEDIA QUERY: Tablets & Small Screens (<= 678px)*/
+@media screen and (max-width: 678px) {
+    .one {
+        flex-direction: column;
+        text-align: center;
+        max-width: 90vw;
+        padding: 40px 0;
+    }
+
+    .sec-text h2 {
+        font-size: 32px;
+    }
+
+    .sec-text p {
+        font-size: 18px;
+    }
+}
+
+/*MEDIA QUERY: Mobile Screens (<= 425px) */
+@media screen and (max-width: 425px) {
+    .main {
+        height: 90vh;
+    }
+
+    nav {
+        max-width: 92vw;
+        height: 60px;
+    }
+
+    nav img {
+        width: 90px;
+    }
+
+    .nav-buttons {
+        gap: 6px;
+    }
+
+    .lang-btn {
+        padding: 4px 6px;
+        font-size: 11px;
+    }
+
+    .btn-red-sm {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 0 12px;
+        gap: 12px;
+    }
+
+    .hero .first {
+        font-size: 26px;
+        line-height: 1.25;
+    }
+
+    .hero .second {
+        font-size: 16px;
+    }
+
+    .hero .third {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .hero-buttons input {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .btn-red {
+        width: 100%;
+        justify-content: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .btn-red svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .one {
+        max-width: 95vw;
+        padding: 30px 0;
+    }
+
+    .sec-text h2 {
+        font-size: 24px;
+    }
+
+    .sec-text p {
+        font-size: 15px;
+    }
+}
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
