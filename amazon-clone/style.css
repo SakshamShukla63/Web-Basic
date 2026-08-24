@@ -1,0 +1,530 @@
+/* Base Reset & Variables */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+:root {
+    --nav-bg: #131921;
+    --panel-bg: #232f3e;
+    --amazon-orange: #febd68;
+    --amazon-orange-hover: #f3a847;
+    --link-blue: #007185;
+    --body-bg: #e3e6e6;
+}
+
+body {
+    background-color: var(--body-bg);
+    overflow-x: hidden;
+}
+
+/* Header & Navbar Styling */
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    min-height: 60px;
+    background-color: var(--nav-bg);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    gap: 10px;
+}
+
+.border {
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 2px;
+    transition: border-color 0.2s ease;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/* Navigation Elements */
+.nav-logo {
+    height: 50px;
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo {
+    background-image: url('./assests/amazon_logo.png');
+    height: 35px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-address {
+    flex-shrink: 0;
+}
+
+.add-first {
+    color: #ccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Search Bar Styling & Animations */
+.nav-search {
+    display: flex;
+    flex-grow: 1;
+    max-width: 800px;
+    height: 40px;
+    border-radius: 4px;
+    transition: box-shadow 0.2s ease, border 0.2s ease;
+    min-width: 150px; /* Prevents search box from crushing on smaller screens */
+}
+
+.nav-search:focus-within {
+    box-shadow: 0 0 0 3px #f90, 0 0 0 4px rgba(255, 153, 0, 0.5);
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.search-select:hover {
+    background-color: #e6e6e6;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 0.95rem;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    min-width: 50px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: var(--amazon-orange);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    flex-shrink: 0;
+}
+
+.search-icon:hover {
+    background-color: var(--amazon-orange-hover);
+}
+
+/* Account, Orders & Cart */
+.nav-signin, .nav-return {
+    flex-shrink: 0;
+}
+
+span {
+    font-size: 0.75rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.cart-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-cart i {
+    font-size: 26px;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    left: 13px;
+    color: #f90;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.cart-text {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+/* Secondary Sub-Panel Navigation */
+.panel {
+    min-height: 39px;
+    background-color: var(--panel-bg);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 15px;
+    gap: 15px;
+    font-size: 0.85rem;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.panel-all {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.panel-ops {
+    display: flex;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.panel-ops a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.panel-ops a:hover {
+    color: var(--amazon-orange);
+}
+
+.panel-deals {
+    margin-left: auto;
+    font-weight: 700;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.panel-deals:hover {
+    color: var(--amazon-orange);
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), var(--body-bg)), url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.hero-message {
+    background-color: white;
+    color: #0f1111;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 5;
+}
+
+.hero-message a {
+    color: var(--link-blue);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero-message a:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+/* Shop Section & Interactive Cards */
+.shop-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 20px 20px 20px;
+    margin-top: -120px; /* Pulled up over hero gradient smoothly */
+    position: relative;
+    z-index: 10;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.box-content h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #0f1111;
+}
+
+.box-img {
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    transition: opacity 0.3s ease;
+}
+
+.box:hover .box-img {
+    opacity: 0.95;
+}
+
+.box-link {
+    color: var(--link-blue);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: auto;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+.box-link:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.foot-panel1:hover {
+    background-color: #485769;
+}
+
+.foot-panel2 {
+    background-color: var(--panel-bg);
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.foot-panel2 ul {
+    list-style: none;
+}
+
+.foot-panel2 p {
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.foot-panel2 ul a {
+    color: #ddd;
+    font-size: 0.85rem;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    transition: text-decoration 0.2s ease;
+}
+
+.foot-panel2 ul a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel3 {
+    height: 70px;
+    background-color: var(--panel-bg);
+    border-top: 1px solid #3a4553;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4 {
+    background-color: var(--nav-bg);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.pages a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Large Tablets & Medium Screens */
+@media screen and (max-width: 900px) {
+    .shop-section {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: -60px;
+    }
+}
+
+/* Small Tablets & Mobile Landscape (<= 678px) */
+@media screen and (max-width: 678px) {
+    .nav-address, 
+    .nav-return,
+    .panel-deals {
+        display: none;
+    }
+
+    .shop-section {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px; /* Removes negative pull to prevent hero text overlap */
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .box-img {
+        height: 180px;
+    }
+
+    .hero-section {
+        height: 220px;
+    }
+
+    .foot-panel2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Small Mobile Screens (<= 425px) */
+@media screen and (max-width: 425px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    .nav-logo {
+        min-width: 70px;
+    }
+
+    .nav-signin p span {
+        display: none;
+    }
+
+    .cart-text {
+        display: none;
+    }
+
+    .search-select {
+        width: 35px;
+    }
+
+    .shop-section {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+
+    .hero-section {
+        height: 180px;
+    }
+
+    .hero-message {
+        font-size: 0.75rem;
+        margin-bottom: 10px;
+    }
+
+    .foot-panel2 {
+        grid-template-columns: 1fr;
+    }
+
+    .pages a {
+        display: block;
+        margin: 5px 0;
+    }
+}
