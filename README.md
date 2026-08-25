@@ -20,6 +20,7 @@ Welcome to my web development repository! This repository features essential web
 Web-Basic/
 ├── amazon-clone/         # Amazon UI clone with header & product grid
 ├── netflix-clone/        # Netflix landing page UI clone
+├── blinkit-clone/        # Blinkit UI clone with header and landing page
 ├── .gitattributes
 ├── .gitignore
 └── README.md             # Project documentation
