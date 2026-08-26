@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #faf7f2;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .08);
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    color: #e67e22;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin-left: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #e67e22;
+}
+
+.hero {
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)),url("https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+}
+
+.hero-text {
+    color: white;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    background: #e67e22;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #cf711d;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 90px 8%;
+}
+
+.recipes h2,
+.categories h2,
+.about h2,
+.newsletter h2 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.recipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 35px;
+}
+
+.card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+    transition: .4s;
+}
+
+.card:hover {
+    transform: translateY(-12px);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 20px;
+}
+
+.card p {
+    padding: 0 20px 25px;
+    color: #666;
+}
+
+.categories {
+    background: #fff6ef;
+}
+
+.category-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    text-align: center;
+}
+
+.category {
+    background: white;
+    padding: 40px;
+    font-size: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .08);
+    transition: .4s;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.category h3 {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 60px;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.about p {
+    margin: 30px 0;
+    line-height: 2;
+    color: #666;
+}
+
+.newsletter {
+    text-align: center;
+    background: #fff;
+}
+
+.newsletter p {
+    margin-bottom: 30px;
+}
+
+.newsletter input {
+    width: 350px;
+    max-width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: #eee;
+    outline: none;
+}
+
+.newsletter button {
+    padding: 15px 30px;
+    margin-left: 10px;
+    border: none;
+    background: #e67e22;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.newsletter button:hover {
+    background: #cf711d;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background: #222;
+    color: white;
+}
+
+@media(max-width:768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar ul {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero {
+        padding: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    .hero h1 {
+        font-size: 42px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .newsletter button {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+}
