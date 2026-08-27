@@ -12,6 +12,7 @@ Welcome to my web development repository! This repository features essential web
 | **Amazon E-Commerce Clone** | `HTML5` `CSS3` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/amazon-clone/) | [Folder](./amazon-clone) |
 | **Blinkit UI Clone** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blinkit-clone/) | [Folder](./blinkit-clone) |
 | **Food Blog Website** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/food-blog/) | [Folder](./food-blog) |
+| **Personal Blog Website** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blog-website/) | [Folder](./blog-website) |
 
 ---
 
@@ -21,7 +22,8 @@ Welcome to my web development repository! This repository features essential web
 Web-Basic/
 ├── amazon-clone/         # Amazon UI clone with header & product grid
 ├── blinkit-clone/        # Blinkit quick commerce UI clone
-├── food-blog/            # Food blog layout with recipe cards & articles
+├── blog-website/         # Blog website layout with articles & navigation
+├── food-blog/            # Food blog layout with recipe cards
 ├── netflix-clone/        # Netflix landing page UI clone
 ├── .gitattributes
 ├── .gitignore
