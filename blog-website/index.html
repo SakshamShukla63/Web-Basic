@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offbeat — Thoughts, Design & Code</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxrswyVbwpbAmWRW7T8fR8oKqpEvO0qRQ04lrRsksAIQ&s=10" type="image/x-icon">
+  <!-- Distinctive typography pairings via Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Editorial Header -->
+  <header class="site-header">
+    <div class="header-left">
+      <a href="#" class="brand-logo">Offbeat<em>.</em></a>
+      <span class="issue-tag">Vol. 04 / 2026</span>
+    </div>
+    <nav class="site-nav">
+      <a href="#essays">Essays</a>
+      <a href="#archive">Archive</a>
+      <a href="#about">About</a>
+      <a href="#subscribe" class="nav-cta">Subscribe</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- Hero / Lead Editorial Feature -->
+    <section class="lead-story">
+      <div class="story-meta">
+        <span class="category-pill">Opinion</span>
+        <time datetime="2026-08-10">Aug 10, 2026</time>
+        <span class="read-time">7 min read</span>
+      </div>
+      
+      <h1 class="lead-title">Why the future of software interface design belongs to the <span class="highlight-underline">imperfect</span> hand.</h1>
+      
+      <div class="lead-grid">
+        <div class="lead-excerpt">
+          <p class="dek">We built systems to eliminate variance, only to realize that variance was precisely what kept our digital spaces alive. Here is what happens when we design for texture instead of uniformity.</p>
+          <a href="#" class="read-btn">Read Full Essay <span class="arrow">→</span></a>
+        </div>
+        
+        <figure class="lead-image-frame">
+          <div class="image-wrapper">
+            <img src="https://picsum.photos/id/1062/1000/600" alt="Abstract sculptural artwork on table" loading="eager">
+          </div>
+          <figcaption>Fig. 01 — Analog composition study, Studio Brooklyn.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Asymmetric Main Grid -->
+    <div class="content-split" id="essays">
+      
+      <!-- Primary Article List -->
+      <section class="articles-column">
+        <h2 class="section-label">Latest Writing</h2>
+
+        <article class="post-card horizontal">
+          <div class="post-thumb">
+            <img src="https://picsum.photos/id/1060/500/350" alt="Architectural space" loading="lazy">
+          </div>
+          <div class="post-content">
+            <div class="story-meta">
+              <span class="category-pill">Architecture</span>
+              <time>Aug 04</time>
+            </div>
+            <h3><a href="#">Minimalism isn't empty—it's heavy with intention</a></h3>
+            <p>Every element removed leaves behind twice the responsibility for whatever remains behind.</p>
+          </div>
+        </article>
+
+        <article class="post-card horizontal">
+          <div class="post-thumb">
+            <img src="https://picsum.photos/id/1025/500/350" alt="Dog in nature" loading="lazy">
+          </div>
+          <div class="post-content">
+            <div class="story-meta">
+              <span class="category-pill">Culture</span>
+              <time>Jul 28</time>
+            </div>
+            <h3><a href="#">Notes on slow living in fast-moving industries</a></h3>
+            <p>How creators are quietly stepping back from hyper-optimization and regaining creative autonomy.</p>
+          </div>
+        </article>
+
+        <article class="post-card horizontal">
+          <div class="post-thumb">
+            <img src="https://picsum.photos/id/1069/500/350" alt="Workspace desk detail" loading="lazy">
+          </div>
+          <div class="post-content">
+            <div class="story-meta">
+              <span class="category-pill">Tools</span>
+              <time>Jul 15</time>
+            </div>
+            <h3><a href="#">The tactile renaissance: Physical interfaces in a touchscreen world</a></h3>
+            <p>Physical knobs, tactile switches, and why physical feedback is returning to modern hardware.</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- Editorial Sidebar -->
+      <aside class="sidebar-column">
+        <div class="sticky-sidebar">
+          
+          <div class="widget author-card">
+            <span class="widget-label">The Editor</span>
+            <div class="author-avatar">
+              <img src="https://picsum.photos/id/64/120/120" alt="Author avatar">
+            </div>
+            <p class="author-name">Maya Vance</p>
+            <p class="author-bio">Design critic, researcher, and independent writer exploring technology, aesthetics, and human behavior.</p>
+          </div>
+
+          <div class="widget curations">
+            <span class="widget-label">Quick Reads</span>
+            <ul class="quick-links">
+              <li>
+                <span class="num">01</span>
+                <div>
+                  <a href="#">Typography for high-density dashboards</a>
+                  <span class="sub-meta">3 min read</span>
+                </div>
+              </li>
+              <li>
+                <span class="num">02</span>
+                <div>
+                  <a href="#">The demise of the infinite scroll feature</a>
+                  <span class="sub-meta">5 min read</span>
+                </div>
+              </li>
+              <li>
+                <span class="num">03</span>
+                <div>
+                  <a href="#">Color theory beyond RGB color palettes</a>
+                  <span class="sub-meta">4 min read</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="widget newsletter-box" id="subscribe">
+            <span class="widget-label">Dispatch</span>
+            <h3>Get the weekly digest</h3>
+            <p>One deep-dive article every Sunday morning. Zero spam, ever.</p>
+            <form onsubmit="event.preventDefault();">
+              <input type="email" placeholder="you@domain.com" required>
+              <button type="submit">Join 12,000+ Readers</button>
+            </form>
+          </div>
+
+        </div>
+      </aside>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="brand-logo">Offbeat<em>.</em></a>
+        <p>An independent publication dedicated to intentional design, technology, and culture.</p>
+      </div>
+      <div class="footer-nav">
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#">Essays</a></li>
+            <li><a href="#">Interviews</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Archive</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">RSS Feed</a></li>
+            <li><a href="#">Mastodon</a></li>
+            <li><a href="#">Substack</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Offbeat Press. Handcrafted with semantic HTML & CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
