@@ -1,0 +1,37 @@
+body{
+    background-color:burlywood;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+.accordian{
+    background-color: white;
+    padding: 4px 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(255, 285, 255);
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .h4{
+    margin:16px;
+    height: 10px;
+    width: 10px;
+} */
+/* h4 .active{
+
+} */
+.ans{
+    color:#ddd;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+.ans.active{
+    max-height: 200px;
+
+}
