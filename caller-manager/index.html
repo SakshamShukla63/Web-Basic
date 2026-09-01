@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caller Management App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi-T1wWM3gClwWaD94uBYiwQrssJ96qYsWQhw8FUVzbQ&s=10" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="logo">
+      <i class="fa-solid fa-phone-volume"></i>
+      <span>Caller Dets</span>
+    </div>
+    <div class="header-actions">
+      <button id="open-form-btn" class="btn btn-primary">
+        <i class="fa-solid fa-plus"></i> Add New Caller
+      </button>
+      <button id="clear-all-btn" class="btn btn-danger">
+        <i class="fa-solid fa-trash"></i> Clear All
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+    
+    <!-- Part 1: Modal Input Form -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h2>Create Caller Card</h2>
+          <button id="close-form-btn" class="icon-btn" aria-label="Close form">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <form id="caller-form">
+          <div class="form-group">
+            <label for="caller-name">Caller Name *</label>
+            <input type="text" id="caller-name" required placeholder="e.g. Sarah Jenkins">
+          </div>
+
+          <div class="form-group">
+            <label for="caller-img">Image URL</label>
+            <input type="url" id="caller-img" placeholder="https://example.com/avatar.jpg">
+          </div>
+
+          <div class="form-group">
+            <label for="caller-purpose">Purpose of Call *</label>
+            <input type="text" id="caller-purpose" required placeholder="e.g. Project Review">
+          </div>
+
+          <div class="form-group">
+            <label for="caller-hometown">Hometown</label>
+            <input type="text" id="caller-hometown" placeholder="e.g. Chicago, IL">
+          </div>
+
+          <div class="form-group">
+            <label for="caller-bio">Bio / Notes</label>
+            <textarea id="caller-bio" rows="3" placeholder="Add short details or notes about this caller..."></textarea>
+          </div>
+
+          <div class="modal-actions">
+            <button type="button" id="cancel-btn" class="btn btn-secondary">Close</button>
+            <button type="submit" class="btn btn-primary">Create Card</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Part 2: Stacked Cards Display -->
+    <section class="deck-section">
+      <p class="deck-instruction">Hover over cards to view the full stack</p>
+      
+      <div id="cards-stack" class="cards-stack">
+        <!-- Dynamic Caller Cards will be injected here -->
+      </div>
+
+      <div id="empty-state" class="empty-state">
+        <i class="fa-solid fa-address-book"></i>
+        <h3>No Callers Yet</h3>
+        <p>Click "Add New Caller" to create your first caller profile card.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
