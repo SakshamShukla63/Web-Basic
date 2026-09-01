@@ -1,6 +1,6 @@
 # 🌐 Web Basic Projects
 
-Welcome to my web development repository! This repository features essential web applications, clones, UI components, and JavaScript DOM projects built using HTML5, CSS3, and JavaScript.
+Welcome to my web development repository! This repository features essential web applications, clones, UI components, and dynamic JavaScript apps built using HTML5, CSS3, and JavaScript.
 
 ---
 
@@ -13,7 +13,8 @@ Welcome to my web development repository! This repository features essential web
 | **Blinkit UI Clone** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blinkit-clone/) | [Folder](./blinkit-clone) |
 | **Food Blog Website** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/food-blog/) | [Folder](./food-blog) |
 | **Personal Blog Website** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blog-website/) | [Folder](./blog-website) |
-| **DOM Manipulation Projects** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dom-projects/) | [Folder](./dom-projects) |
+| **DOM Projects** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dom-projects/) | [Folder](./dom-projects) |
+| **Caller Management App** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/caller-management-app/) | [Folder](./caller-management-app) |
 
 ---
 
@@ -21,12 +22,13 @@ Welcome to my web development repository! This repository features essential web
 
 ```text
 Web-Basic/
-├── amazon-clone/         # Amazon UI clone with header & product grid
-├── blinkit-clone/        # Blinkit quick commerce UI clone
-├── blog-website/         # Blog website layout with articles & navigation
-├── dom-projects/         # Interactive JavaScript DOM manipulation projects
-├── food-blog/            # Food blog layout with recipe cards
-├── netflix-clone/        # Netflix landing page UI clone
+├── amazon-clone/             # Amazon UI clone with header & product grid
+├── blinkit-clone/            # Blinkit quick commerce UI clone
+├── blog-website/             # Blog website layout with articles & navigation
+├── caller-management-app/    # Interactive Caller Dets stacked-card application
+├── dom-projects/             # Interactive JavaScript DOM manipulation projects
+├── food-blog/                # Food blog layout with recipe cards
+├── netflix-clone/            # Netflix landing page UI clone
 ├── .gitattributes
 ├── .gitignore
-└── README.md             # Project documentation
+└── README.md                 # Repository documentation
