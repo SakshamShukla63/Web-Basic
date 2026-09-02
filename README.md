@@ -15,6 +15,7 @@ Welcome to my web development repository! This repository features essential web
 | **Personal Blog Website** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blog-website/) | [Folder](./blog-website) |
 | **DOM Projects** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dom-projects/) | [Folder](./dom-projects) |
 | **Caller Management App** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/caller-management-app/) | [Folder](./caller-management-app) |
+| **Profile Search & Card Layout** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/profile-card-search/) | [Folder](./profile-card-search) |
 
 ---
 
@@ -29,6 +30,7 @@ Web-Basic/
 ├── dom-projects/             # Interactive JavaScript DOM manipulation projects
 ├── food-blog/                # Food blog layout with recipe cards
 ├── netflix-clone/            # Netflix landing page UI clone
+├── profile-card-search/      # Modern dark-themed search filter & card layout
 ├── .gitattributes
 ├── .gitignore
 └── README.md                 # Repository documentation
