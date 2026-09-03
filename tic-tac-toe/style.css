@@ -1,0 +1,138 @@
+:root {
+  --bg: #121316;
+  --card: #1c1e24;
+  --border: #2e323b;
+  --text: #e1e4ea;
+  --muted: #848b98;
+  --x-color: #3b82f6;
+  --o-color: #f43f5e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-wrap {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.status {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.scores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.score-box {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-box .label {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.x-side .num { color: var(--x-color); font-weight: 700; }
+.o-side .num { color: var(--o-color); font-weight: 700; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.sq {
+  aspect-ratio: 1;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: inherit;
+  transition: border-color 0.15s, transform 0.1s;
+}
+
+.sq:hover:not(:disabled) {
+  border-color: #4b5260;
+}
+
+.sq:active:not(:disabled) {
+  transform: scale(0.96);
+}
+
+.sq.x { color: var(--x-color); }
+.sq.o { color: var(--o-color); }
+
+.sq.highlight {
+  background: #252a34;
+  border-color: currentColor;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #252830;
+}
+
+.btn.danger {
+  color: #f87171;
+}
+
+.btn.danger:hover {
+  background: rgba(248, 113, 113, 0.1);
+  border-color: rgba(248, 113, 113, 0.2);
+}

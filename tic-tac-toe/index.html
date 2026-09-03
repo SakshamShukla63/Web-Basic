@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tic-tac-toe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReYRSbypENadhckHRVUrLidSKbo5KfjA0Zkzw4xs5HdQ&s=10" type="image/x-icon">
+</head>
+<body>
+
+  <main class="app-wrap">
+    <div class="top-bar">
+      <h2>tic tac toe</h2>
+      <div id="status" class="status">Turn: <strong id="turn-display">X</strong></div>
+    </div>
+
+    <div class="scores">
+      <div class="score-box x-side">
+        <span class="label">P1 (X)</span>
+        <span id="score-x" class="num">0</span>
+      </div>
+      <div class="score-box o-side">
+        <span class="label">P2 (O)</span>
+        <span id="score-o" class="num">0</span>
+      </div>
+    </div>
+
+    <div id="grid" class="grid">
+      <button class="sq" data-i="0"></button>
+      <button class="sq" data-i="1"></button>
+      <button class="sq" data-i="2"></button>
+      <button class="sq" data-i="3"></button>
+      <button class="sq" data-i="4"></button>
+      <button class="sq" data-i="5"></button>
+      <button class="sq" data-i="6"></button>
+      <button class="sq" data-i="7"></button>
+      <button class="sq" data-i="8"></button>
+    </div>
+
+    <div class="actions">
+      <button id="reset-board" class="btn">Next Round</button>
+      <button id="clear-all" class="btn danger">Reset All</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
