@@ -16,6 +16,7 @@ Welcome to my web development repository! This repository features essential web
 | **DOM Projects** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dom-projects/) | [Folder](./dom-projects) |
 | **Caller Management App** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/caller-management-app/) | [Folder](./caller-management-app) |
 | **Profile Search & Card Layout** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/profile-card-search/) | [Folder](./profile-card-search) |
+| **Tic Tac Toe Game** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/tic-tac-toe/) | [Folder](./tic-tac-toe) |
 
 ---
 
@@ -31,6 +32,7 @@ Web-Basic/
 ├── food-blog/                # Food blog layout with recipe cards
 ├── netflix-clone/            # Netflix landing page UI clone
 ├── profile-card-search/      # Modern dark-themed search filter & card layout
+├── tic-tac-toe/              # Interactive Tic Tac Toe web game logic
 ├── .gitattributes
 ├── .gitignore
 └── README.md                 # Repository documentation
