@@ -17,6 +17,7 @@ Welcome to my web development repository! This repository features essential web
 | **Caller Management App** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/caller-management-app/) | [Folder](./caller-management-app) |
 | **Profile Search & Card Layout** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/profile-card-search/) | [Folder](./profile-card-search) |
 | **Tic Tac Toe Game** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/tic-tac-toe/) | [Folder](./tic-tac-toe) |
+| **Aura Task Manager** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/aura-task-manager/) | [Folder](./aura-task-manager) |
 
 ---
 
@@ -25,6 +26,7 @@ Welcome to my web development repository! This repository features essential web
 ```text
 Web-Basic/
 ├── amazon-clone/             # Amazon UI clone with header & product grid
+├── aura-task-manager/        # Intelligent task manager with priority tags & progress tracking
 ├── blinkit-clone/            # Blinkit quick commerce UI clone
 ├── blog-website/             # Blog website layout with articles & navigation
 ├── caller-management-app/    # Interactive Caller Dets stacked-card application
