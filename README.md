@@ -8,16 +8,16 @@ Welcome to my web development repository! This repository features essential web
 
 | Project Name | Tech Stack | Live Demo | Source Code |
 | :--- | :--- | :--- | :--- |
-| **Netflix Landing Page Clone** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/netflix-clone/) | [Folder](./netflix-clone) |
-| **Amazon E-Commerce Clone** | `HTML5` `CSS3` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/amazon-clone/) | [Folder](./amazon-clone) |
-| **Blinkit UI Clone** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blinkit-clone/) | [Folder](./blinkit-clone) |
-| **Food Blog Website** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/food-blog/) | [Folder](./food-blog) |
-| **Personal Blog Website** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blog-website/) | [Folder](./blog-website) |
+| **Netflix-Clone** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/netflix-clone/) | [Folder](./netflix-clone) |
+| **Amazon-Clone** | `HTML5` `CSS3` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/amazon-clone/) | [Folder](./amazon-clone) |
+| **Blinkit-Clone** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blinkit-clone/) | [Folder](./blinkit-clone) |
+| **Food-Blog** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/food-blog/) | [Folder](./food-blog) |
+| **Blog-Website** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blog-website/) | [Folder](./blog-website) |
 | **DOM Projects** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dom-projects/) | [Folder](./dom-projects) |
-| **Caller Management App** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/caller-management-app/) | [Folder](./caller-management-app) |
-| **Profile Search & Card Layout** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/profile-card-search/) | [Folder](./profile-card-search) |
-| **Tic Tac Toe Game** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/tic-tac-toe/) | [Folder](./tic-tac-toe) |
-| **Aura Task Manager** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/aura-task-manager/) | [Folder](./aura-task-manager) |
+| **Caller-Manager** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/caller-manager/) | [Folder](./caller-manager) |
+| **Real time search filter** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Real-time-search-filter/) | [Folder](./Real-time-search-filter) |
+| **Tic Tac Toe ** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/tic-tac-toe/) | [Folder](./tic-tac-toe) |
+| **Todo-Website** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Todo-Website/) | [Folder](./Todo-Website) |
 
 ---
 
