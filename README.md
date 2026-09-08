@@ -13,7 +13,7 @@ Welcome to my web development repository! This repository features essential web
 | **Blinkit-Clone** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blinkit-clone/) | [Folder](./blinkit-clone) |
 | **Food-Blog** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/food-blog/) | [Folder](./food-blog) |
 | **Blog-Website** | `HTML5` `CSS3` | [View Live](https://SakshamShukla63.github.io/Web-Basic/blog-website/) | [Folder](./blog-website) |
-| **DOM Projects** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dom-projects/) | [Folder](./dom-projects) |
+| **DOM Projects** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Dom-projects/) | [Folder](./Dom-projects) |
 | **Caller-Manager** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/caller-manager/) | [Folder](./caller-manager) |
 | **Real time search filter** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Real-time-search-filter/) | [Folder](./Real-time-search-filter) |
 | **Tic Tac Toe** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/tic-tac-toe/) | [Folder](./tic-tac-toe) |
