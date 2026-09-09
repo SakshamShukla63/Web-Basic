@@ -18,6 +18,7 @@ Welcome to my web development repository! This repository features essential web
 | **Real time search filter** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Real-time-search-filter/) | [Folder](./Real-time-search-filter) |
 | **Tic Tac Toe** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/tic-tac-toe/) | [Folder](./tic-tac-toe) |
 | **Todo Website** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Todo-Website/) | [Folder](./Todo-Website) |
+| **Windows 11 Clone** | `HTML5` `CSS3` `JavaScript` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/windows11-clone/) | [Folder](./windows11-clone) |
 
 ---
 
@@ -26,15 +27,16 @@ Welcome to my web development repository! This repository features essential web
 ```text
 Web-Basic/
 ├── Amazon-clone/             # Amazon UI clone with header & product grid
-├── Todo-website/        # Intelligent task manager with priority tags & progress tracking
 ├── Blinkit-clone/            # Blinkit quick commerce UI clone
 ├── Blog-website/             # Blog website layout with articles & navigation
-├── Caller-manager/    # Interactive Caller Dets stacked-card application
+├── Caller-manager/           # Interactive Caller Dets stacked-card application
 ├── DOM-Projects/             # Interactive JavaScript DOM manipulation projects
 ├── Food-blog/                # Food blog layout with recipe cards
 ├── Netflix-clone/            # Netflix landing page UI clone
-├── Real-time-search-filter/      # Modern dark-themed search filter & card layout
+├── Real-time-search-filter/  # Modern dark-themed search filter & card layout
 ├── Tic-tac-toe/              # Interactive Tic Tac Toe web game logic
+├── Todo-website/             # Intelligent task manager with priority tags & progress tracking
+├── windows11-clone/          # Windows 11 desktop UI clone with interactive apps & window management
 ├── .gitattributes
 ├── .gitignore
 └── README.md                 # Repository documentation
