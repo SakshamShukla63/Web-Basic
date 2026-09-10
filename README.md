@@ -19,6 +19,7 @@ Welcome to my web development repository! This repository features essential web
 | **Tic Tac Toe** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/tic-tac-toe/) | [Folder](./tic-tac-toe) |
 | **Todo Website** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Todo-Website/) | [Folder](./Todo-Website) |
 | **Windows 11 Clone** | `HTML5` `CSS3` `JavaScript` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/windows11-clone/) | [Folder](./windows11-clone) |
+| **Calculator** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/calculator/) | [Folder](./calculator) |
 
 ---
 
@@ -30,6 +31,7 @@ Web-Basic/
 ├── Blinkit-clone/            # Blinkit quick commerce UI clone
 ├── Blog-website/             # Blog website layout with articles & navigation
 ├── Caller-manager/           # Interactive Caller Dets stacked-card application
+├── calculator/               # Interactive calculator tool with responsive grid design
 ├── DOM-Projects/             # Interactive JavaScript DOM manipulation projects
 ├── Food-blog/                # Food blog layout with recipe cards
 ├── Netflix-clone/            # Netflix landing page UI clone
