@@ -19,7 +19,7 @@ Welcome to my web development repository! This repository features essential web
 | **Tic Tac Toe** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/tic-tac-toe/) | [Folder](./tic-tac-toe) |
 | **Todo Website** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Todo-Website/) | [Folder](./Todo-Website) |
 | **Windows 11 Clone** | `HTML5` `CSS3` `JavaScript` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/windows11-clone/) | [Folder](./windows11-clone) |
-| **Calculator** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Calculator-app/) | [Folder](./Calculator-app) |
+| **Calculator-app** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Calculator-app/) | [Folder](./Calculator-app) |
 
 ---
 
