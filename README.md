@@ -20,6 +20,7 @@ Welcome to my web development repository! This repository features essential web
 | **Todo Website** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Todo-Website/) | [Folder](./Todo-Website) |
 | **Windows 11 Clone** | `HTML5` `CSS3` `JavaScript` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/windows11-clone/) | [Folder](./windows11-clone) |
 | **Calculator-app** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Calculator-app/) | [Folder](./Calculator-app) |
+| **Weather-Web** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Weather-Web/) | [Folder](./Weather-Web) |
 
 ---
 
@@ -38,6 +39,7 @@ Web-Basic/
 ├── Real-time-search-filter/  # Modern dark-themed search filter & card layout
 ├── Tic-tac-toe/              # Interactive Tic Tac Toe web game logic
 ├── Todo-website/             # Intelligent task manager with priority tags & progress tracking
+├── Weather-Web/              # Real-time weather forecasting web application
 ├── windows11-clone/          # Windows 11 desktop UI clone with interactive apps & window management
 ├── .gitattributes
 ├── .gitignore
