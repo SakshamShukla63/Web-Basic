@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Create your account with interactive validation.">
+  <title>Form Validation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <main class="container">
+    <section class="story-panel">
+      <a class="brand" href="index.html"><span class="brand-mark">N</span><span>northstar</span></a>
+      <div class="story-copy"><p class="eyebrow">A BETTER PLACE TO BEGIN</p><h1>Your next<br><em>chapter</em> starts here.</h1><p>Set up your account and keep all the things that matter within reach.</p></div>
+      <div class="story-footer"><span class="signal"><i></i> PRIVATE BY DESIGN</span><span>01 / 03</span></div>
+    </section>
+
+    <section class="form-card" aria-labelledby="form-title">
+      <div class="form-topline"><span class="eyebrow">CREATE YOUR ACCOUNT</span><span class="step-count">STEP 01 <b>OF 03</b></span></div>
+      <div class="progress-bar"><span></span></div>
+      <h2 id="form-title">Welcome aboard.</h2>
+      <p class="subtitle">A few details and you’re ready to go.</p>
+    <form id="registrationForm" class="form-card" novalidate>
+      <!-- Full Name -->
+      <div class="form-control">
+        <label for="username">Full Name</label>
+        <div class="input-wrapper">
+          <i class="fa-solid fa-user icon"></i>
+          <input type="text" id="username" placeholder="John Doe" />
+          <i class="fa-solid fa-circle-check status-icon success-icon"></i>
+          <i class="fa-solid fa-circle-exclamation status-icon error-icon"></i>
+        </div>
+        <small class="error-msg">Error message</small>
+      </div>
+
+      <!-- Email -->
+      <div class="form-control">
+        <label for="email">Email Address</label>
+        <div class="input-wrapper">
+          <i class="fa-solid fa-envelope icon"></i>
+          <input type="email" id="email" placeholder="john@example.com" />
+          <i class="fa-solid fa-circle-check status-icon success-icon"></i>
+          <i class="fa-solid fa-circle-exclamation status-icon error-icon"></i>
+        </div>
+        <small class="error-msg">Error message</small>
+      </div>
+
+      <!-- Password -->
+      <div class="form-control">
+        <label for="password">Password</label>
+        <div class="input-wrapper">
+          <i class="fa-solid fa-lock icon"></i>
+          <input type="password" id="password" placeholder="At least 8 characters" />
+          <i class="fa-solid fa-eye toggle-password" id="togglePassword"></i>
+        </div>
+        <div class="password-meter" aria-live="polite"><span></span><span></span><span></span><small id="passwordHint">Use 8 or more characters</small></div>
+        <small class="error-msg">Error message</small>
+      </div>
+
+      <!-- Confirm Password -->
+      <div class="form-control">
+        <label for="confirmPassword">Confirm Password</label>
+        <div class="input-wrapper">
+          <i class="fa-solid fa-shield-halved icon"></i>
+          <input type="password" id="confirmPassword" placeholder="Re-enter your password" />
+          <i class="fa-solid fa-circle-check status-icon success-icon"></i>
+          <i class="fa-solid fa-circle-exclamation status-icon error-icon"></i>
+        </div>
+        <small class="error-msg">Error message</small>
+      </div>
+
+      <button type="submit" id="submitBtn"><span>Create account</span><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></button>
+      <p class="login-note">Already have an account? <a href="#">Sign in</a></p>
+    </form>
+
+    <!-- Results Display Box -->
+    <div id="resultCard" class="result-card hidden">
+      <div class="success-header">
+        <i class="fa-solid fa-circle-check"></i>
+        <h3>Registration Successful!</h3>
+      </div>
+      <div class="result-body">
+        <p><strong>Full Name:</strong> <span id="resName"></span></p>
+        <p><strong>Email:</strong> <span id="resEmail"></span></p>
+        <p><strong>Submission Time:</strong> <span id="resTime"></span></p>
+      </div>
+      <button id="resetBtn">Submit Another</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
