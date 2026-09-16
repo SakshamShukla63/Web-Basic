@@ -22,6 +22,7 @@ Welcome to my web development repository! This repository features essential web
 | **Calculator-app** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Calculator-app/) | [Folder](./Calculator-app) |
 | **Weather-Web** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Weather-Web/) | [Folder](./Weather-Web) |
 | **Form-handling** | `HTML5` `CSS3` `JavaScript` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Form-handling/) | [Folder](./Form-handling) |
+| **QR-code-generator** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/QR-code-generator/) | [Folder](./QR-code-generator) |
 
 ---
 
@@ -38,6 +39,7 @@ Web-Basic/
 ├── Food-blog/                # Food blog layout with recipe cards
 ├── Form-handling/            # Interactive form validation with dynamic UI feedback & result rendering
 ├── Netflix-clone/            # Netflix landing page UI clone
+├── QR-code-generator/        # Dynamic QR code generation tool for URLs and custom text
 ├── Real-time-search-filter/  # Modern dark-themed search filter & card layout
 ├── Tic-tac-toe/              # Interactive Tic Tac Toe web game logic
 ├── Todo-website/             # Intelligent task manager with priority tags & progress tracking
