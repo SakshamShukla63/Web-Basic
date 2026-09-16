@@ -1,0 +1,19 @@
+/* Custom human touches and typography polish */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Make sure the QR code generated dynamically scales cleanly */
+#qrcode img {
+    display: block;
+    border-radius: 8px;
+}
+
+/* Custom scrollbar aesthetics */
+textarea::-webkit-scrollbar {
+    width: 6px;
+}
+textarea::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
