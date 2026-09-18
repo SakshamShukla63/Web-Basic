@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #f7e7c6;
+    background: #17130f;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 50% 42%, rgba(135, 81, 36, 0.3), transparent 32%),
+        linear-gradient(135deg, #332014, #17130f 52%, #0b0a08);
+}
+
+.clock {
+    position: relative;
+    width: min(82vw, 420px);
+    aspect-ratio: 1;
+    border: 12px solid #6e3f20;
+    border-radius: 50%;
+    background: #f5e6c8;
+    box-shadow:
+        0 0 0 7px #bd8549,
+        0 24px 60px rgba(0, 0, 0, 0.55),
+        inset 0 0 0 5px rgba(91, 49, 22, 0.18),
+        inset 0 0 35px rgba(91, 49, 22, 0.24);
+}
+
+.clock::before {
+    content: '';
+    position: absolute;
+    inset: 15px;
+    border: 1px solid rgba(110, 63, 32, 0.3);
+    border-radius: 50%;
+}
+
+.number {
+    position: absolute;
+    z-index: 1;
+    font-size: clamp(1.8rem, 8vw, 2.8rem);
+    font-weight: 700;
+    color: #392316;
+}
+
+.number-12 { top: 7%; left: 50%; transform: translateX(-50%); }
+.number-3 { top: 50%; right: 8%; transform: translateY(-50%); }
+.number-6 { bottom: 5%; left: 50%; transform: translateX(-50%); }
+.number-9 { top: 50%; left: 8%; transform: translateY(-50%); }
+
+.tick {
+    position: absolute;
+    top: 6%;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 14px;
+    border-radius: 4px;
+    background: #75431f;
+    transform-origin: 2px 225px;
+}
+
+.tick-1 { transform: rotate(30deg); }
+.tick-2 { transform: rotate(60deg); }
+.tick-4 { transform: rotate(120deg); }
+.tick-5 { transform: rotate(150deg); }
+.tick-7 { transform: rotate(210deg); }
+.tick-8 { transform: rotate(240deg); }
+.tick-10 { transform: rotate(300deg); }
+.tick-11 { transform: rotate(330deg); }
+
+.hand {
+    position: absolute;
+    z-index: 2;
+    bottom: 50%;
+    left: calc(50% - 3px);
+    width: 6px;
+    height: 31%;
+    border-radius: 8px;
+    background: #392316;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+}
+
+.hour-hand {
+    width: 10px;
+    left: calc(50% - 5px);
+    height: 23%;
+}
+
+.minute-hand {
+    height: 34%;
+}
+
+.second-hand {
+    z-index: 3;
+    width: 2px;
+    left: calc(50% - 1px);
+    height: 39%;
+    background: #b4432d;
+}
+
+.center-dot {
+    position: absolute;
+    z-index: 4;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    width: 16px;
+    height: 16px;
+    border: 3px solid #f5e6c8;
+    border-radius: 50%;
+    background: #b4432d;
+}
+
+@media (max-width: 480px) {
+    .tick {
+        transform-origin: 2px calc(min(82vw, 420px) * 0.44);
+    }
+}
