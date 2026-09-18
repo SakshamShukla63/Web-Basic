@@ -23,6 +23,7 @@ Welcome to my web development repository! This repository features essential web
 | **Weather-Web** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Weather-Web/) | [Folder](./Weather-Web) |
 | **Form-handling** | `HTML5` `CSS3` `JavaScript` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Form-handling/) | [Folder](./Form-handling) |
 | **QR-code-generator** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/QR-code-generator/) | [Folder](./QR-code-generator) |
+| **Analog Clock** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/analog-clock/) | [Folder](./analog-clock) |
 
 ---
 
@@ -31,6 +32,7 @@ Welcome to my web development repository! This repository features essential web
 ```text
 Web-Basic/
 ├── Amazon-clone/             # Amazon UI clone with header & product grid
+├── analog-clock/             # Real-time interactive analog clock with dynamic CSS transform rotations
 ├── Blinkit-clone/            # Blinkit quick commerce UI clone
 ├── Blog-website/             # Blog website layout with articles & navigation
 ├── Caller-manager/           # Interactive Caller Dets stacked-card application
