@@ -24,6 +24,7 @@ Welcome to my web development repository! This repository features essential web
 | **Form-handling** | `HTML5` `CSS3` `JavaScript` `FontAwesome` | [View Live](https://SakshamShukla63.github.io/Web-Basic/Form-handling/) | [Folder](./Form-handling) |
 | **QR-code-generator** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/QR-code-generator/) | [Folder](./QR-code-generator) |
 | **Analog Clock** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/analog-clock/) | [Folder](./analog-clock) |
+| **Digital Clock** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/digital-clock/) | [Folder](./digital-clock) |
 
 ---
 
@@ -37,6 +38,7 @@ Web-Basic/
 ├── Blog-website/             # Blog website layout with articles & navigation
 ├── Caller-manager/           # Interactive Caller Dets stacked-card application
 ├── calculator/               # Interactive calculator tool with responsive grid design
+├── digital-clock/            # Live digital clock application displaying real-time hours, minutes, and seconds
 ├── DOM-Projects/             # Interactive JavaScript DOM manipulation projects
 ├── Food-blog/                # Food blog layout with recipe cards
 ├── Form-handling/            # Interactive form validation with dynamic UI feedback & result rendering
