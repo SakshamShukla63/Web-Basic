@@ -26,6 +26,7 @@ Welcome to my web development repository! This repository features essential web
 | **Analog Clock** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/analog-clock/) | [Folder](./analog-clock) |
 | **Digital Clock** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/digital-clock/) | [Folder](./digital-clock) |
 | **Countdown Timer** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/countdown-timer/) | [Folder](./countdown-timer) |
+| **gta6-project** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/gta6-project/) | [Folder](./gta6-project) |
 
 ---
 
@@ -44,6 +45,7 @@ Web-Basic/
 ├── DOM-Projects/             # Interactive JavaScript DOM manipulation projects
 ├── Food-blog/                # Food blog layout with recipe cards
 ├── Form-handling/            # Interactive form validation with dynamic UI feedback & result rendering
+├── gta6-project/             # Unofficial Vice City concept landing page with live countdown & SVG art
 ├── Netflix-clone/            # Netflix landing page UI clone
 ├── QR-code-generator/        # Dynamic QR code generation tool for URLs and custom text
 ├── Real-time-search-filter/  # Modern dark-themed search filter & card layout
