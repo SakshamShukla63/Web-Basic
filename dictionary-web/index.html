@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link rel="icon" type="image/x-icon" href="icons8-dictionary-100.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📖 Dictionary</h1>
+            <p class="subtitle">Search for any word to get its definition</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Type a word..." autocomplete="off">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="result" class="result hidden">
+            <div class="word-section">
+                <h2 id="word" class="word"></h2>
+                <button id="audioBtn" class="audio-btn hidden">🔊</button>
+            </div>
+            <p id="phonetic" class="phonetic"></p>
+
+            <div id="meanings" class="meanings"></div>
+        </div>
+
+        <div id="error" class="error hidden"></div>
+        <div id="loading" class="loading hidden">Searching...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

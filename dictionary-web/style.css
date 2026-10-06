@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #82aab6 0%, #4f698d 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1rem;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 15px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+#searchBtn {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #82aab6 0%, #4f698d 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#searchBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+#searchBtn:active {
+    transform: translateY(0);
+}
+
+.result {
+    animation: fadeIn 0.5s ease-in;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.word-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.word {
+    color: #333;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.audio-btn {
+    background: #f0f0f0;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.audio-btn:hover {
+    background: #e0e0e0;
+    transform: scale(1.1);
+}
+
+.phonetic {
+    color: #667eea;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.meanings {
+    margin-top: 20px;
+}
+
+.meaning-item {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+}
+
+.part-of-speech {
+    color: #764ba2;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.definition {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.example {
+    color: #666;
+    font-style: italic;
+    margin-top: 8px;
+    padding-left: 15px;
+    border-left: 2px solid #ddd;
+}
+
+.synonyms {
+    margin-top: 12px;
+    color: #555;
+}
+
+.synonyms strong {
+    color: #764ba2;
+}
+
+.synonym-list {
+    display: inline;
+    color: #667eea;
+}
+
+.error {
+    background: #fee;
+    color: #c33;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #c33;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.loading {
+    text-align: center;
+    color: #667eea;
+    font-size: 1.2rem;
+    padding: 20px;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    #searchBtn {
+        width: 100%;
+    }
+}
