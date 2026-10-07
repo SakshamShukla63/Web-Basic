@@ -28,6 +28,7 @@ Welcome to my web development repository! This repository features essential web
 | **Countdown Timer** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/countdown-timer/) | [Folder](./countdown-timer) |
 | **gta6-project** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/gta6-project/) | [Folder](./gta6-project) |
 | **dictionary-web** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dictionary-web/) | [Folder](./dictionary-web) |
+| **Stopwatch** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/stopwatch/) | [Folder](./stopwatch) |
 
 ---
 
@@ -51,6 +52,7 @@ Web-Basic/
 ├── Netflix-clone/            # Netflix landing page UI clone
 ├── QR-code-generator/        # Dynamic QR code generation tool for URLs and custom text
 ├── Real-time-search-filter/  # Modern dark-themed search filter & card layout
+├── stopwatch/                # Precision digital stopwatch web app with start, pause, reset, and lap features
 ├── Tic-tac-toe/              # Interactive Tic Tac Toe web game logic
 ├── Todo-website/             # Intelligent task manager with priority tags & progress tracking
 ├── Weather-Web/              # Real-time weather forecasting web application
