@@ -28,7 +28,7 @@ Welcome to my web development repository! This repository features essential web
 | **Countdown Timer** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/countdown-timer/) | [Folder](./countdown-timer) |
 | **gta6-project** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/gta6-project/) | [Folder](./gta6-project) |
 | **dictionary-web** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dictionary-web/) | [Folder](./dictionary-web) |
-| **Stopwatch** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/stopwatch/) | [Folder](./stopwatch) |
+| **Stop-watch** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/stop-watch/) | [Folder](./stop-watch) |
 
 ---
 
