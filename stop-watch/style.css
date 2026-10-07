@@ -1,0 +1,59 @@
+/* General page setup */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Stopwatch card container */
+.stopwatch {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Big timer display text */
+#display {
+  font-size: 48px;
+  font-family: monospace;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Buttons container */
+.buttons button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+/* Start button - Green */
+#startBtn {
+  background-color: #28a745;
+}
+
+/* Stop button - Red */
+#stopBtn {
+  background-color: #dc3545;
+}
+
+/* Reset button - Blue */
+#resetBtn {
+  background-color: #007bff;
+}
+
+/* Button hover effects */
+.buttons button:hover {
+  opacity: 0.85;
+}
