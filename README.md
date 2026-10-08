@@ -29,6 +29,7 @@ Welcome to my web development repository! This repository features essential web
 | **gta6-project** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/gta6-project/) | [Folder](./gta6-project) |
 | **dictionary-web** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dictionary-web/) | [Folder](./dictionary-web) |
 | **Stop-watch** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/stop-watch/) | [Folder](./stop-watch) |
+| **currency-convertor** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/currency-convertor/) | [Folder](./currency-convertor) |
 
 ---
 
