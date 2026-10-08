@@ -28,8 +28,8 @@ Welcome to my web development repository! This repository features essential web
 | **Countdown Timer** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/countdown-timer/) | [Folder](./countdown-timer) |
 | **gta6-project** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/gta6-project/) | [Folder](./gta6-project) |
 | **dictionary-web** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/dictionary-web/) | [Folder](./dictionary-web) |
-| **Stop-watch** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/stop-watch/) | [Folder](./stop-watch) |
-| **currency-convertor** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/currency-convertor/) | [Folder](./currency-convertor) |
+| **Stopwatch** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/stopwatch/) | [Folder](./stopwatch) |
+| **Currency Converter** | `HTML5` `CSS3` `JavaScript` | [View Live](https://SakshamShukla63.github.io/Web-Basic/currency-convertor/) | [Folder](./currency-convertor) |
 
 ---
 
@@ -44,6 +44,7 @@ Web-Basic/
 ├── Caller-manager/           # Interactive Caller Dets stacked-card application
 ├── calculator/               # Interactive calculator tool with responsive grid design
 ├── countdown-timer/          # Customizable countdown timer with dynamic interval tracking & DOM updates
+├── currency-converter/       # Dynamic currency converter application with real-time exchange rate calculations
 ├── digital-clock/            # Live digital clock application displaying real-time hours, minutes, and seconds
 ├── dictionary-web/           # Interactive web dictionary app for fetching word definitions, pronunciations, and synonyms
 ├── DOM-Projects/             # Interactive JavaScript DOM manipulation projects
